@@ -2,7 +2,7 @@ import data from "./data/data.json"
 import { Card } from "./components/card/Card.jsx";
 function App() {
   return (
-      <div className="px-8 pb-8 bg-primary-700 w-full h-screen flex items-center justify-center">
+      <div className="px-8 pb-8 overflow-auto bg-primary-700 w-full flex items-center justify-center">
         <div className="max-w-[662px] max-h-[530px] grid grid-cols-12  gap-2">
         <div className="pt-4 pb-5 text-white text-2xl col-span-12">Замечания и рекомендации</div>
           {
